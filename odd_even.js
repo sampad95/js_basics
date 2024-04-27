@@ -13,7 +13,7 @@ console.log(n, "is Odd")}
 // 	console.log(n, "is odd")
 
 let result = n%2 == 0?
-	 "is even":
-	 "is odd"
+	"is even":
+	"is odd"
 
 console.log(n, result)

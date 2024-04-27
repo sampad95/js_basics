@@ -30,6 +30,30 @@ marks > 90 && marks <= 100?
 console.log("Don't worry, you just failed in paper. Try next time. Best of luck for the real life exam")
 */
 
+/*
+let result = marks >= 30 && marks <=60? "Grade C":
+marks > 60 && marks <=70? "Grade-B":
+marks > 70 && marks <= 80? "Grade-A":
+marks > 80 && marks <=90? "Grade-A+":
+marks > 90 && marks <= 100? "Grade-AA":
+	"Don't worry, you just failed in paper. Try next time. Best of luck for the real life exam"
+
+console.log(result)
+*/
+
+
+// let result = marks > 90? "Grade AA":
+// marks > 80? "Grade-A+":
+// marks > 70 ? "Grade-A":
+// marks > 60? "Grade-B":
+// marks > 30? "Grade-C":
+// 	"Don't worry, you just failed in paper. Try next time. Best of luck for the real life exam"
+
+// console.log(result)
+
+
+
+/*
 function grading(mks){
 	let result = mks > 30 && mks <=60? "Grade C":
 	mks > 60 && mks <=70? "Grade-B":
@@ -41,3 +65,57 @@ function grading(mks){
 }
 
 grading(marks)
+*/
+
+
+// Using switch()
+let result
+switch(true){
+	case marks > 90:
+		result = "Grade-AA"
+		break
+	case marks > 80:
+		result = "Grade-A+"
+		break
+	case marks > 70:
+		result = "Grade-A"
+		break
+	case marks > 60:
+		result = "Grade-B"
+		break
+	case marks > 30:
+		result = "Grade-C"
+		break
+	case marks < 30:
+		result = "Don't worry, you just failed in paper. Try next time. Best of luck for the real life exam"
+		break
+}
+
+console.log(result)
+
+
+/*
+let result
+switch(marks){
+	case marks > 90 == true:
+		result = "Grade-AA"
+		break
+	case marks > 80 == true:
+		result = "Grade-A+"
+		break
+	case marks > 70 == true:
+		result = "Grade-A"
+		break
+	case marks > 60 == true:
+		result = "Grade-B"
+		break
+	case marks > 30 == true:
+		result = "Grade-C"
+		break
+	case marks > 30 == false:
+		result = "Don't worry, you just failed in paper. Try next time. Best of luck for the real life exam"
+		break
+}
+
+console.log(result)
+*/
