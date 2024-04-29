@@ -24,6 +24,31 @@ console.log(person1[input]) // no dot operator
 
 
 /*
+// Creating empty object and then adding properties in it
+// let person1 = {}
+const person1 = {}
+person1.name = "Sampad"
+person1.age = 28
+person1['is Scholar'] = true
+person1.personInf = `${person1.name} is ${person1.age} years old Scholar`
+// person1.personInf = `${this.name} is ${this.age} years old Scholar` // this does not work here as this._ is undefined
+
+console.log(person1)
+*/
+
+/*
+// using new Object()
+const person1 = new Object()
+person1.name = "Sampad"
+person1.age = 28
+person1['is Scholar'] = true
+person1.personInf = `${person1.name} is ${person1.age} years old Scholar`
+
+console.log(person1)
+*/
+
+
+/*
 let person1 = {
     name: "Sampad",
     age: 28,
@@ -53,7 +78,7 @@ console.log(person1.personInf())
 
 
 // deleting object property
-let person1 = {
+const person1 = {
     name: "Sampad",
     age: 28,
     'is Scholar': true,
@@ -71,5 +96,7 @@ let person1 = {
 
 console.log(person1)
 // delete person1.personInf   // deleting object property
-delete person1.research.area   // deleting object property inside object
+delete person1.research.exp   // deleting object property inside object
 console.log(person1)
+
+
