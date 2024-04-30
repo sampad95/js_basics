@@ -1,10 +1,13 @@
 
-/*
+
+// object and object method
+// methods are functions stored as object properties
+
 let person1 = {
     name: "Sampad",
     age: 28,
     'is Scholar': true,
-    personInf: function() {
+    personInf: function() {                                            
         return `${this.name} is ${this.age} years old Scholar`
         // return `${person1.name} is ${person1.age} years old Scholar`
         // console.log(`${this.name} is ${this.age} years old Scholar`)
@@ -13,14 +16,14 @@ let person1 = {
 
 console.log(person1)
 console.log(person1.name)
-console.log(person1.personInf())
+console.log(person1.personInf()) // personInf is method of the object person1. it is a function stored as object property
 console.log(person1['age'])
 console.log(person1['is Scholar'])  // in that case dot(.) operator does not work
 
 // when object property is asked to user through an input, then dot(.) operator does not work
 let input = 'name'
 console.log(person1[input]) // no dot operator 
-*/
+
 
 
 /*
@@ -76,7 +79,7 @@ console.log(person1.personInf())
 // console.log(person1.research.topics?.length) // ? checks the existence of "topics" and absence is indicated by "undefined"
 */
 
-
+/*
 // deleting object property
 const person1 = {
     name: "Sampad",
@@ -98,5 +101,5 @@ console.log(person1)
 // delete person1.personInf   // deleting object property
 delete person1.research.exp   // deleting object property inside object
 console.log(person1)
-
+*/
 
