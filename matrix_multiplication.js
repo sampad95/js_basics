@@ -5,15 +5,15 @@ function mat_mul(A, B){
     let new_mat = []
     if(A[0].length === B.length){
         for(let i=0; i<A.length; i++){
-            let arr = []
+            let row = []
             for(let j=0; j<B[0].length; j++){
                 let c = 0
                 for(let k=0; k<A[0].length; k++){
                     c += A[i][k]*B[k][j]
                 }
-                arr.push(c)
+                row.push(c)
             }
-            new_mat.push(arr)
+            new_mat.push(row)
         }
     }
     else{
