@@ -41,8 +41,8 @@ marks > 90 && marks <= 100? "Grade-AA":
 console.log(result)
 */
 
-
-let result = marks > 90? "Grade AA":
+/*
+let result = marks <= 100 && marks > 90? "Grade AA":
 marks > 80? "Grade-A+":
 marks > 70 ? "Grade-A":
 marks > 60? "Grade-B":
@@ -50,7 +50,7 @@ marks > 30? "Grade-C":
 	"Don't worry, you just failed in paper. Try next time. Best of luck for the real life exam"
 
 console.log(result)
-
+*/
 
 
 /*
@@ -94,3 +94,20 @@ switch(true){
 console.log(result)
 */
 
+if (marks <= 100 && marks >= 0){
+//    console.log("marks is valid")
+    if (marks > 90){
+    console.log("Grade-AA")}
+    else if (marks > 80){
+    console.log("Grade-A+")}
+    else if (marks > 70){
+    console.log("Grade-A")}
+    else if (marks > 60){
+    console.log("Grade-B")}
+    else if (marks > 30){
+    console.log("Grade-C")}
+    else{
+    console.log("Don't worry, you just failed in paper. Try next time. Best of luck for the real life exam")}
+}
+else{
+console.log("invalid marks")}
