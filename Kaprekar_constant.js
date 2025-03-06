@@ -102,7 +102,7 @@ function Kaprekar_routine(n){
                 diff = max_n - min_n;
                  // i++;
                  i +=1;
-                 console.log('Step = ', i);
+                 console.log(`Step = ${i}`);
                  console.log(min_n, max_n, diff);
     
                 if(diff.toString().length===4){
@@ -118,7 +118,7 @@ function Kaprekar_routine(n){
                     n="000"+diff.toString();
                 }
     
-                console.log("Next n=", n);
+                console.log(`Next n = ${n}`);
             }  
         }
         console.log("Stop");
