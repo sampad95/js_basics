@@ -41,7 +41,7 @@ while(n!=6174){
 // let n = Math.floor(Math.random() * 8999) + 1001;  // Math.floor(Math.random() * (max - min + 1) ) + min; // Here max = 9999, min = 1001
 var n = Math.floor(Math.random() * 9901) + 100;  // Math.floor(Math.random() * (max - min + 1) ) + min; // Here max = 10000, min = 100
 // let n = 9990;
-console.log("Initial n = ", n);
+console.log("Initial n = "+ n);
 
 let i = 0;
 
@@ -74,7 +74,7 @@ if (n.toString().length === 4){
                 n="000"+diff.toString();
             }
 
-            console.log("Next n=", n);
+            console.log("Next n="+ n);
         }  
     }
     console.log("Stop");
@@ -87,7 +87,7 @@ else{
 
 
 function Kaprekar_routine(n){
-    console.log("Initial n = ", n);
+    console.log(`Initial n = ${n}`);
     var i = 0;
     if (n.toString().length === 4){
         while(n!=6174){
