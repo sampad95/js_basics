@@ -110,7 +110,7 @@ console.log(A);
 // console.log(A);
 */
 
-function Mat(m, n){
+function null_mat4(m, n){
     // var M = [];
     var M = Array(m);
     for (var i = 0; i < m; i++) {
@@ -122,4 +122,18 @@ function Mat(m, n){
     return M;
 }
 
-console.log(Mat(2,3));
+console.log(null_mat4(5,4));
+
+function identity_mat3(m, n){
+    // var M = [];
+    var M = Array(m);
+    for (var i = 0; i < m; i++) {
+        M[i] = Array(n);
+        for(var j=0;j<n;j++){
+            M[i][j]=(i===j)*1.0;
+        }
+    }
+    return M;
+}
+
+console.log(identity_mat3(4,4));

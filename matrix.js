@@ -93,6 +93,21 @@ function null_mat3(m, n){
 
 console.log(null_mat3(5, 4));
 
+function identity_mat3(m){
+    // var M = [];
+    var M = Array(m);
+    for (var i = 0; i < m; i++) {
+        M[i] = Array(m);
+        for(var j=0;j<m;j++){
+            M[i][j]=(i===j)*1.0;
+        }
+    }
+    return M;
+}
+
+console.log(identity_mat3(5));
+
+
 
 function null_mat4(m, n){
     // var M = [];
