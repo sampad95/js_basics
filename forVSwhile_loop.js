@@ -3,34 +3,35 @@
 for(var i = 1; i<=100; i++){
     
     if(i%3 === 0){
-        console.log(i)
+        console.log(i);
     }
 }
 */
 
 
-// while loop is suitable when end point is not known
+// while loop is suitable when end point is not known. Loop stops by condition.
 
-/*
-num = 8545651
-// console.log(num%10)
-// num = parseInt(num/10)
-// console.log(num)
 
-// console.log(num%10)
-// num = parseInt(num/10)
-// console.log(num)
+num = 8545651;
+// console.log(num%10);
+// num = parseInt(num/10);
+// console.log(num);
+
+// console.log(num%10);
+// num = parseInt(num/10);
+// console.log(num);
 
 while(num>0){
-    console.log(num%10)
-    num = parseInt(num/10)
- //console.log(num)
+    console.log(num%10);
+    num = parseInt(num/10);
+ //console.log(num);
 }
 
 // for this problem we don't know what would be the strat and the iteration in for loop
 
-*/
 
+
+/*
 let n = 1729;
 
 while(n!=6174){
@@ -39,5 +40,5 @@ while(n!=6174){
     diff = max_n - min_n;
     console.log(min_n, max_n, diff);
     n = diff;
-
 }
+ */
