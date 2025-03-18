@@ -99,7 +99,11 @@ function identity_mat3(m){
     for (var i = 0; i < m; i++) {
         M[i] = Array(m);
         for(var j=0;j<m;j++){
+<<<<<<< HEAD
             M[i][j]=(i===j)*1.0;
+=======
+            M[i][j]=(i===j)*1.0; 
+>>>>>>> 29ec691 (committed)
         }
     }
     return M;

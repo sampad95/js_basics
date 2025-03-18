@@ -76,4 +76,8 @@ const person1 = new person("Sampad", 28, "PhD", 3, "Indian")
 const person2 = new person ("Ram", 23, "MSc", 2, "Indian")
 
 console.log(person1)
+<<<<<<< HEAD
 console.log(person2)
+=======
+console.log(person2)
+>>>>>>> 29ec691 (committed)

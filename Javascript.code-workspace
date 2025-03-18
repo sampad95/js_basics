@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Fortran"
+		},
+		{
+			"path": "../Java"
+		}
+	],
+	"settings": {
+		"jdk.advanced.disable.nbjavac": false
+	}
+}
