@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 let i = 1
 do{
     console.log("Hello") // first execute
@@ -6,6 +7,17 @@ do{
 }
 while(i <= 3)            // then check
 console.log(i)
+=======
+let i = 1;
+do{
+    console.log(i); 
+    console.log("Hello"); // first execute
+    i++;
+                     
+}
+while(i <= 3);            // then check
+console.log(i);
+>>>>>>> 29ec691 (committed)
 */
 
 
@@ -15,4 +27,8 @@ do{
     i++                  
 }
 while(i <= 3)            // then check
+<<<<<<< HEAD
 console.log(i)
+=======
+console.log(i)
+>>>>>>> 29ec691 (committed)

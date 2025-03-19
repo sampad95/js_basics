@@ -37,6 +37,9 @@ switch(true){
 console.log(result);
 */
 
+<<<<<<< HEAD
 switch(){
     
 }
+=======
+>>>>>>> 29ec691 (committed)

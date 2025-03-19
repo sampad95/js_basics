@@ -110,6 +110,17 @@ console.log(A);
 // console.log(A);
 */
 
+<<<<<<< HEAD
+=======
+function null_mat3(m,n){
+    var M=new Array(m).fill(Array(n).fill(0));
+    return M;
+}
+
+console.log(null_mat3(5,4))
+
+/*
+>>>>>>> 29ec691 (committed)
 function null_mat4(m, n){
     // var M = [];
     var M = Array(m);
@@ -122,8 +133,17 @@ function null_mat4(m, n){
     return M;
 }
 
+<<<<<<< HEAD
 console.log(null_mat4(5,4));
 
+=======
+
+console.log(null_mat4(5,4));
+*/
+
+
+/*
+>>>>>>> 29ec691 (committed)
 function identity_mat3(m, n){
     // var M = [];
     var M = Array(m);
@@ -136,4 +156,20 @@ function identity_mat3(m, n){
     return M;
 }
 
+<<<<<<< HEAD
 console.log(identity_mat3(4,4));
+=======
+console.log(identity_mat3(4,4));
+*/
+
+/*
+var A=Array(6);
+for(var i=0;i<6;i++){
+    A[i]=Array(5);
+}
+console.log(A);
+console.log(A.length);
+console.log(A[0].length);
+*/
+
+>>>>>>> 29ec691 (committed)

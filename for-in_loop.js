@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 29ec691 (committed)
 const person1 = {
     name: "Sampad",
     age: 28,
@@ -24,3 +28,13 @@ for(let key in person1.research){
     console.log(key)
     // console.log(key, person1[key])
 }
+<<<<<<< HEAD
+=======
+*/
+
+let arr1 = [1,3,5,7,9];
+for(let i in arr1){
+    console.log(i, arr1[i]);
+
+}
+>>>>>>> 29ec691 (committed)
