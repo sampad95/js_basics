@@ -22,5 +22,5 @@ delete arr3[2];
 
 arr3.forEach((item) => count ++);
 
-console.log(arr3.length);
-console.log(count);
+console.log(arr3.length);  // during length count the empty slot at 2 is taken as undefined element and so the length does not change after delete.
+console.log(count); // during incrementation operation the empty slot is skipped and so the value of count is lower than the length.

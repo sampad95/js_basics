@@ -29,3 +29,12 @@ console.log(`typeof a = ${typeof a}`);
 let r = "123" + + "sampad";         // string + NaN = string, as NaN is number type.
 console.log(`r = ${r}`);
 console.log(`typeof r = ${typeof r}`);
+
+
+
+// In JS unary plus operator before a boolean, converts it into a positive numeric value.
+console.log(+true);
+console.log(typeof +true);
+
+console.log(+false);
+console.log(typeof +false);

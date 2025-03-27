@@ -44,3 +44,11 @@ console.log(`typeof a2 = ${typeof a2}`);
 let r = "123" - - "sampad";         // string - (-NaN) = string, as NaN is number type
 console.log(`r = ${r}`);
 console.log(`typeof r = ${typeof r}`);
+
+
+// In JS unary minus operator before a boolean, converts it into a negative numeric value.
+console.log(-true);
+console.log(typeof -true);
+
+console.log(-false);
+console.log(typeof -false);
